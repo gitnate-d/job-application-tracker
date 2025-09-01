@@ -21,7 +21,7 @@ A full-stack web app to organize and track your job applications in a **Kanban-s
 
 **Backend**: Node.js + Express
 
-**Database**: MongoDB (to be seen)
+**Database**: MongoDB
 
 **Auth**: JWT (JSON Web Tokens)
 
