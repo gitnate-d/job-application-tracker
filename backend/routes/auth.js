@@ -40,4 +40,31 @@ router.post("/login", async (req, res) => {
   }
 });
 
+
+//DEBUG SECTION
+
+/*
+// Debug route to get users (excluding passwords)
+router.get("/debug/users", async (req, res) => {
+  try {
+    const users = await User.find({}, "-password"); // Exclude password field
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ error: "Failed to fetch users" });
+  }
+});
+
+// Debug route: Delete a user by ID (no auth, for local debug only!)
+router.delete("/debug/users/:id", async (req, res) => {
+  try {
+    const deleted = await User.findByIdAndDelete(req.params.id);
+    if (!deleted) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    res.json({ message: "User deleted" });
+  } catch (err) {
+    res.status(500).json({ error: "Failed to delete user" });
+  }
+});*/
+
 export default router;
