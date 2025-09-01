@@ -1,6 +1,6 @@
 # 📌 Job Application Tracker
 
-A full-stack web app to organize and track your job applications in a **Kanban-style board**. Built with React, Node.js, and a SQL/NoSQL backend.
+A full-stack web app to organize and track your job applications in a **Kanban-style board**. Built with React, Node.js, and a MongoDB backend.
 
 ---
 
@@ -21,7 +21,7 @@ A full-stack web app to organize and track your job applications in a **Kanban-s
 
 **Backend**: Node.js + Express
 
-**Database**: PostgreSQL or MongoDB (to be seen)
+**Database**: MongoDB (to be seen)
 
 **Auth**: JWT (JSON Web Tokens)
 
